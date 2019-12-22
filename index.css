@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(44, 1, 70, 0.137);
+}
+
+/* HEADER AND NAVBAR */
+header {
+  background: rgb(0, 5, 15);
+  width: 98%;
+  padding: 1%;
+  position: sticky;
+  top: 0;
+}
+nav {
+  display: inline-block;
+  width: 90%;
+}
+nav ul {
+  list-style-type: none;
+  width: 90%;
+}
+nav li {
+  display: inline-block;
+  margin-right: 5%;
+}
+.city-info-header {
+  font-family: "ZCOOL XiaoWei", serif;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.brand-name {
+  float: left;
+}
+.city-header {
+  color: rgb(239, 143, 252);
+}
+.info-header {
+  color: rgb(72, 72, 247);
+}
+.search {
+  float: center;
+}
+input[type="text"] {
+  padding: 2%;
+  width: 700px;
+  box-sizing: border-box;
+  border: 3px solid purple;
+  border-radius: 30px;
+  font-size: 20px;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color: rgb(194, 191, 191);
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+  color: rgb(194, 191, 191);
+  font-size: 20px;
+}
+:-moz-placeholder {
+  color: rgb(194, 191, 191);
+  font-size: 20px;
+}
+::-moz-placeholder {
+  color: rgb(194, 191, 191);
+  font-size: 20px;
+}
+
+/* displaying results */
+.result-modal {
+  border: 1px solid #000;
+  background: rgb(10, 10, 10);
+  width: 40%;
+  padding: 5px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 10s ease-in-out;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.modal-close-btn {
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
+  padding: 2px;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 30px;
+  cursor: pointer;
+  float: right;
+}
+/* .search-result-div {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+.modal-close-btn:hover {
+  color: rgb(255, 255, 255);
+  padding: 2px;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(255, 0, 0);
+  border-radius: 30px;
+  cursor: pointer;
+  float: right;
+}
+div[search-result] {
+  background: rgba(24, 23, 24, 0.459);
+}
+.single-result {
+  cursor: pointer;
+  background: rgba(95, 94, 94, 0.205);
+  border: 1px double #fff;
+  border-radius: 10px;
+  padding: 12px;
+}
+.main-result {
+  cursor: text;
+  background: rgba(22, 22, 22, 0.377);
+  border: 3px double #fff;
+  border-radius: 30px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hidden {
+  display: none;
+}
+.error-field {
+  color: rgb(255, 0, 0);
+}
+.success-field {
+  color: rgb(29, 177, 16);
+}
+.highlight-search {
+  background: rgb(72, 72, 247);
+}
+.city-span {
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Yeon Sung", cursive;
+  color: rgb(239, 143, 252);
+  cursor: pointer;
+}
+.state-span {
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(78, 165, 136);
+  cursor: pointer;
+}
+.population-span {
+  font-size: 1.2em;
+  color: rgb(152, 152, 247);
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.growth-span {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+.introduction-span {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+.rank-span {
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.location-span {
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
