@@ -1,6 +1,6 @@
-const searchBox = document.querySelector('input[search-box]');
-const resultModal = document.querySelector('div[result-modal]');
-const searchReasult = document.getElementById("search-result");
+const searchBox = document.getElementById('search-box');
+const resultModal = document.getElementById('result-modal');
+const searchReasult = document.getElementById('search-result');
 
 // this function will return the default text to searchResult div
 const defaultSearchResultTxt = () => {
