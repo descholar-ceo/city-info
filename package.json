@@ -1,0 +1,25 @@
+{
+  "name": "city-info",
+  "version": "1.0.0",
+  "description": "This is a small mini project which you can use to search US cities, it was built for learning purpose, and ofcourse you can use it while searching some basic information about US cities.",
+  "main": "index.js",
+  "repository": "https://github.com/descholar-ceo/city-info",
+  "author": "descholar",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "6.8.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-plugin-import": "2.20.x",
+    "hint": "^6.0.6",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "scripts": {
+    "stylelint": "npx stylelint index.css",
+    "hint": "npx hint index.html",
+    "stylelint-fix": "npx stylelint index.css --fix",
+    "eslint": "npx eslint index.js",
+    "eslint-fix": "npx stylelint index.js --fix"
+  }
+}
