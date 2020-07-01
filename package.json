@@ -19,7 +19,7 @@
     "stylelint": "npx stylelint index.css",
     "hint": "npx hint index.html",
     "stylelint-fix": "npx stylelint index.css --fix",
-    "eslint": "npx stylelint index.js",
+    "eslint": "npx eslint index.js",
     "eslint-fix": "npx stylelint index.js --fix"
   }
 }
