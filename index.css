@@ -12,35 +12,44 @@ header {
   position: sticky;
   top: 0;
 }
+
 nav {
   display: inline-block;
   width: 90%;
 }
+
 nav ul {
   list-style-type: none;
   width: 90%;
 }
+
 nav li {
   display: inline-block;
   margin-right: 5%;
 }
+
 .city-info-header {
   font-family: "ZCOOL XiaoWei", serif;
   font-size: 60px;
   font-weight: bolder;
 }
+
 .brand-name {
   float: left;
 }
+
 .city-header {
   color: rgb(239, 143, 252);
 }
+
 .info-header {
   color: rgb(72, 72, 247);
 }
+
 .search {
   float: center;
 }
+
 input[type="text"] {
   padding: 2%;
   width: 700px;
@@ -49,21 +58,26 @@ input[type="text"] {
   border-radius: 30px;
   font-size: 20px;
 }
+
 input[type="text"]:focus {
   outline: none;
 }
+
 ::-webkit-input-placeholder {
   color: rgb(194, 191, 191);
   font-size: 20px;
 }
+
 :-ms-input-placeholder {
   color: rgb(194, 191, 191);
   font-size: 20px;
 }
+
 :-moz-placeholder {
   color: rgb(194, 191, 191);
   font-size: 20px;
 }
+
 ::-moz-placeholder {
   color: rgb(194, 191, 191);
   font-size: 20px;
@@ -79,7 +93,7 @@ input[type="text"]:focus {
   margin-left: auto;
   margin-right: auto;
   transition: 10s ease-in-out;
-  box-shadow: 0px 4px 4px rgb(0, 0, 0);
+  box-shadow: 0 4px 4px rgb(0, 0, 0);
 }
 
 .modal-close-btn {
@@ -91,6 +105,7 @@ input[type="text"]:focus {
   cursor: pointer;
   float: right;
 }
+
 /* .search-result-div {
   margin-right: 20px;
   margin-top: 20px;
@@ -105,9 +120,11 @@ input[type="text"]:focus {
   cursor: pointer;
   float: right;
 }
+
 div[search-result] {
   background: rgba(24, 23, 24, 0.459);
 }
+
 .single-result {
   cursor: pointer;
   background: rgba(95, 94, 94, 0.205);
@@ -115,6 +132,7 @@ div[search-result] {
   border-radius: 10px;
   padding: 12px;
 }
+
 .main-result {
   cursor: text;
   background: rgba(22, 22, 22, 0.377);
@@ -124,18 +142,23 @@ div[search-result] {
   margin-left: auto;
   margin-right: auto;
 }
+
 .hidden {
   display: none;
 }
+
 .error-field {
   color: rgb(255, 0, 0);
 }
+
 .success-field {
   color: rgb(29, 177, 16);
 }
+
 .highlight-search {
   background: rgb(72, 72, 247);
 }
+
 .city-span {
   font-size: 1.3em;
   font-weight: bold;
@@ -143,6 +166,7 @@ div[search-result] {
   color: rgb(239, 143, 252);
   cursor: pointer;
 }
+
 .state-span {
   font-size: 1.1em;
   font-weight: bold;
@@ -150,6 +174,7 @@ div[search-result] {
   color: rgb(78, 165, 136);
   cursor: pointer;
 }
+
 .population-span {
   font-size: 1.2em;
   color: rgb(152, 152, 247);
@@ -157,12 +182,14 @@ div[search-result] {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
+
 .growth-span {
   font-size: 1em;
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
   cursor: pointer;
 }
+
 .introduction-span {
   font-size: 1em;
   font-weight: bold;
