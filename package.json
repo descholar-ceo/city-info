@@ -7,6 +7,9 @@
   "author": "descholar",
   "license": "MIT",
   "dependencies": {
+    "eslint": "6.8.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-plugin-import": "2.20.x",
     "hint": "^6.0.6",
     "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0",
