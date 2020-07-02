@@ -1,4 +1,6 @@
 # city-info
+![Linters](https://github.com/descholar-ceo/city-info/workflows/Linters/badge.svg)
+## Description
 This is a small mini project which you can use to search US cities, it was built for learning purpose, and ofcourse you can use it while searching some basic information about US cities.
 
 ![](/city-info-screenshot.png)
