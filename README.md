@@ -53,7 +53,7 @@ There two ways of contributing to this project:
     1. Raise a pull request, comparing your new created branch with our original master branch [here](https://github.com/descholar-ceo/city-info)
 
 ## Show your support 
-Give a ![](https://github.githubassets.com/images/icons/emoji/unicode/2b50.png) if you like this project
+Give a :star: if you like this project
 ## Acknowledgment
 [Microverse](https://microvese.org)
 ## License
